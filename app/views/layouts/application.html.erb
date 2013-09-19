@@ -13,8 +13,12 @@
 				<a href="#" class="brand">Treebook</a>
 				<ul class="nav">
 					<li><%= link_to "All statuses", statuses_path %></li>
+				</ul>
+				<ul class="nav pull-right">
+			<ul><%= link_to current_user.full_name, "#" %></ul>
+				</ul>
 			</div>
-
+		</div>
 		</div>
 	<div class="container">
 	 <p class="notice"><%= notice %></p>
